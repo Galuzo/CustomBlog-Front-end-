@@ -1,0 +1,22 @@
+<div class="post">
+    <span class="Title">{{ post.title }}</span>
+    <span class="FullNameGroup">Author</span>
+    <br />
+    <span class="PostBody">{{ post.body}}</span>
+    <br/>
+    <button md-icon-button >
+      <md-icon class="md-24" aria-label="">comment</md-icon>
+    </button>
+    <button md-icon-button >
+      <md-icon class="md-24" aria-label="">swap_horiz</md-icon>
+    </button>
+    <button md-icon-button >
+      <md-icon class="md-24" aria-label="">favorite_border</md-icon>
+    </button>
+    <span class="likesCount">{{post.likesCount}}</span>
+    <button md-icon-button (click)="delete()">
+      <md-icon class="md-24" aria-label="">delete</md-icon>
+    </button>
+    <span class="Date">{{post.date ||date}}</span>
+</div>
+<div class="line"></div>

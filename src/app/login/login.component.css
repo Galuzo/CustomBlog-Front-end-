@@ -1,0 +1,9 @@
+body{
+  padding-top:50px;
+}
+
+.panel-login{
+  width: 300px;
+  margin-top:20px;
+  margin-left:100px;
+}

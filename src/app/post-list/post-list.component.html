@@ -1,0 +1,6 @@
+
+<div class="posts">
+     <p>Posts</p>
+     <div class="line"></div>
+     <app-post *ngFor="let post of posts" [post]="post" (deleteEmiter)="deletePost(post.id)"></app-post>
+</div>

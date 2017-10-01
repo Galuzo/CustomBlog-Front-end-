@@ -1,0 +1,15 @@
+.posts{
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-height: calc(100vh - 93px);
+  background-color: white;
+}
+
+.posts p{
+    font-family: georgia;
+    font-size: 30px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+}

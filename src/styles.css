@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css";
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('./img/blog.jpg');
+  height: 344px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+.white-block{
+  float: none;
+  background-color: grey;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+  background-color: #e6ecf0;
+  min-height: calc(100vh - 80px);
+}
+
+
+.top5-posts{
+  background-color: white;
+  height: 300px;
+  margin-top:20px;
+}
+
+
+.main{
+background: #e6ecf0;
+min-height: calc(100vh - 93px);
+}
+
+
+
+* {
+margin: 0;
+padding: 0;
+outline: none;
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+background: #eee;
+color: #444;
+-webkit-font-smoothing: antialiased;
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-weight: 400;
+height: auto !important;
+height: 100%;
+min-height: 100%;
+text-rendering: optimizeLegibility
+}
+
+p {
+font-family: georgia;
+font-size: 1rem;
+line-height: 25px;
+margin: 24px 0;
+text-align: center;
+}
+
+
+
+.line{
+border-bottom: 1px solid #e6ecf0;
+margin-top: -15px;
+}
+
+
+
+.top5-posts p{
+font-family: georgia;
+font-size: 20px;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6);
+padding-top: 15px;
+}
